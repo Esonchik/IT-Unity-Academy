@@ -1,0 +1,132 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.post-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    height: 418px;
+    background-color:rgb(255, 255, 255);
+    margin: 12px;
+    padding: 1rem;
+    box-shadow: 1px 1px 20px 2px rgba(34, 60, 80, 0.2);
+    border-radius: 5px;
+}
+
+.box:hover {
+    box-shadow: 1px 1px 28px 10px rgba(34, 60, 80, 0.2);
+}
+
+.image-container{
+    position: relative;
+}
+
+.image-1 {
+    width: 180px;
+    height: 180px;
+    margin: 0 31.5px;
+    cursor: pointer;
+}
+
+.category {
+    margin-top: 10px;
+    color: #9e9e9e;
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 5px;
+    color: #242424;
+    font-weight: 100;
+    cursor: pointer;
+    height: 37px;
+}
+
+.stars {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.price-i {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.price-i i {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.price-i i:hover {
+    background-color: rgba(0, 0, 255, 0.637);
+}
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background-color: #ff9100;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-radius: 30px;
+    background-color: #ff9100cc;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.bonus {
+    width: 65px;
+    height: 65px;
+    background-color: #ff9100;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -1.8rem;
+    right: 1rem;
+    box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.86);
+}
+
+.bonus-new {
+    width: 65px;
+    height: 65px;
+    background-color: #7500b2;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -1.8rem;
+    right: 1rem;
+    box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.86);
+}
